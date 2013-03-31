@@ -229,7 +229,7 @@ trait StructTemplate {
       }.mkString(", ")
       "Product" + arity + "[" + fieldTypes + "]"
     } else {
-      "Product"
+      "scala.Product"
     }
 
     val exceptionMsgField: Option[SimpleID] = if (isException) exceptionMsgFieldName(struct) else None
