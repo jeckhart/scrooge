@@ -16,7 +16,7 @@
     <dependencies>
       <dependency>
         <groupId>com.twitter</groupId>
-        <artifactId>util-core_2.9.2</artifactId>
+        <artifactId>util-core_2.10</artifactId>
         <version>6.1.0</version>
       </dependency>
     </dependencies>
@@ -70,7 +70,7 @@
           </execution>
         </executions>
         <configuration>
-          <scalaVersion>2.9.2</scalaVersion>
+          <scalaVersion>2.10.1</scalaVersion>
         </configuration>
       </plugin>
       <plugin>

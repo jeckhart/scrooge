@@ -17,7 +17,7 @@
     <dependency>
       <groupId>org.scala-lang</groupId>
       <artifactId>scala-library</artifactId>
-      <version>2.9.2</version>
+      <version>${scala.version}</version>
     </dependency>
     <!-- library dependencies -->
     <dependency>
@@ -28,17 +28,17 @@
     </dependency>
     <dependency>
       <groupId>com.twitter</groupId>
-      <artifactId>util-codec_2.9.2</artifactId>
+      <artifactId>util-codec_2.10</artifactId>
       <version>6.1.0</version>
     </dependency>
     <dependency>
       <groupId>com.twitter</groupId>
-      <artifactId>finagle-core_2.9.2</artifactId>
+      <artifactId>finagle-core_2.10</artifactId>
       <version>6.1.0</version>
     </dependency>
     <dependency>
       <groupId>com.twitter</groupId>
-      <artifactId>finagle-thrift_2.9.2</artifactId>
+      <artifactId>finagle-thrift_2.10</artifactId>
       <version>6.1.0</version>
     </dependency>
   </dependencies>
